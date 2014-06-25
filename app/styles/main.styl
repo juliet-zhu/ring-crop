@@ -1,0 +1,143 @@
+
+.header
+    height 60px
+    padding 10px 15px 0 15px
+    background #000
+.content-top
+    position relative
+    overflow hidden
+.banner-img-640
+    display none
+.banner-img
+    margin-left -9%
+.download-box
+    position absolute
+    right 0
+    width 260px
+    height 410px
+    margin-top 50px
+    padding 25px 50px
+    background #f7f6f6
+    border 1px solid #c8c8c8
+    text-align center
+    img
+        display block
+        margin 0 auto
+    .logo-big
+        margin-bottom 30px
+    .andriod-download
+        display block
+        margin-bottom 20px
+.content-btm
+    padding 0 5% 0
+    border-top 1px solid #ccc
+    background #f9f9f9 url(../images/bg.png) left top
+    h3
+        margin 50px auto 20px
+        text-align center
+    .app
+        width 40%
+        margin-right 10%
+        float left
+        text-align center
+        ol 
+            text-align left
+    .feature
+        width 50%
+        margin 50px 0 0
+        float left
+        ul 
+            list-style none
+            margin 0
+            padding 0
+            width 100%
+            li 
+                width 28%
+                float left
+                
+.download-box-mobile
+    display none
+.footer
+    height 60px
+    padding 15px
+    background #000
+    color #ccc
+    text-align center
+
+/* media query */
+@media(max-width:1260px)
+    .content-btm
+        .app 
+            width 100%
+            ol 
+                width 48%
+                margin 0 auto
+                
+        .feature 
+            width 100%
+            ul
+                width 68%
+                margin 0 auto
+@media(max-width:750px)
+    .content-btm
+        .app 
+            width 100%
+            h3 
+                margin-top 20px
+            ol 
+                width 100%
+                margin 0 auto
+        .feature
+            ul
+                display none
+
+@media(max-width:992px)
+    .download-box
+        float inherit
+    .banner-img
+        display none
+    .banner-img-640
+        display block
+        max-width 100%
+        height auto
+    .download-box
+        display none
+    .download-box-mobile
+        display block
+        width 220px
+        height 410px
+        margin 50px auto 0
+        text-align center
+        img
+            display block
+            margin 0 auto
+        .logo-big
+            margin-bottom 30px
+        .andriod-download
+            display block
+            margin-bottom 20px
+    .content-btm
+        padding 0 10% 20px
+        .app 
+            h3
+                margin-top 0
+
+@media(max-width:640px)
+    .download-box-mobile
+        width 100%
+        border-bottom 1px solid #ccc
+        margin-top 20px
+    .content-btm
+        padding 0 10% 20px
+        .app 
+            width 100%
+            h3 
+                margin-top 20px
+            ol 
+                width 100%
+        .feature
+            display none
+
+
+
+               

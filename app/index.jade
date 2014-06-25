@@ -1,0 +1,40 @@
+extends templates/base
+block vars
+    - var page = "home"
+block head 
+    title 铃声裁剪大师
+block content
+    .container
+        .row.content-top
+            .col-md-12
+                img(src="images/phone-img.jpg").banner-img
+                img(src="images/phone-img-640.jpg").banner-img-640
+            .download-box.clearfix
+                img(src="images/logo-big.png").logo-big
+                a(href="#").andriod-download
+                    img(src="images/andriod-download.png")
+                img(src="images/wechat-code.png")
+    .content-btm.clearfix
+        .download-box-mobile
+            img(src="images/logo-big.png").logo-big
+            a(href="#").andriod-download
+                img(src="images/andriod-download.png")
+            img(src="images/wechat-code.png")
+        .app
+            h3 应用简介
+            ol 
+                li 官方推荐，装机必备，全球唯一一款主打铃声裁剪的手机软件,目前支持主流的音频格式。
+                li  拥有最炫的效果和交互设计。
+                li  拥有强大的裁剪功能。 
+                li  支持在线获取铃声，自己录制铃声，设置铃声。
+                li  2.3系统以上的手机还能体验强大的音乐均衡器。
+        .feature
+            ul.clearfix
+                li 
+                    img(src="images/phone1-img.png").img-responsive
+                li(style='margin-left:6.5%') 
+                    img(src="images/phone2-img.png").img-responsive
+                li(style='margin-left:6.5%')  
+                    img(src="images/phone3-img.png").img-responsive
+
+
